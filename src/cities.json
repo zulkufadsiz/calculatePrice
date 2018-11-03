@@ -1,0 +1,12 @@
+{
+    "1": {"title":"ADANA","ev":4.46,"isyeri":10.25,"insaat":7.99,"value":1},
+    "6": {"title":"ANKARA","ev":7.07,"isyeri":18,"insaat":18,"value":6},
+    "7": {"title":"ANTALYA","ev":3,"isyeri":4.75,"insaat":4.75,"value":7},
+    "16":{"title":"BURSA","ev":5.95,"isyeri":9.08,"insaat":9.08,"value":16},
+    "26":{"title":"ESKİŞEHİR","ev":3.05,"isyeri":6.93,"insaat":6,"value":26},
+    "27":{"title":"GAZİANTEP","ev":4,"isyeri":10.07,"insaat":10.07,"value":27},
+    "32":{"title":"ISPARTA","ev":1.08,"isyeri":7.72,"insaat":7.72,"value":32},
+    "34":{"title":"İSTANBUL","ev":5.16,"isyeri":13.09,"insaat":13.57,"value":34},
+    "35":{"title":"İZMİR","ev":4.81,"isyeri":11.06,"insaat":11.06,"value":35},
+    "42":{"title":"KONYA","ev":3.79,"isyeri":8.60,"insaat":6.88,"value":42}
+}

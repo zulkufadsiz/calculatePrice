@@ -1,12 +1,16 @@
 {
   "expo": {
-    "name": "calculatePrice",
+    "name": "Fatura Hesaplama",
     "description": "This project is really great.",
     "slug": "calculatePrice",
     "privacy": "public",
     "sdkVersion": "30.0.0",
+    "android": {
+      "package": "tr.com.zulkufadsiz.calculatePrice",
+      "permissions":[""]
+      },
     "platforms": ["ios", "android"],
-    "version": "1.0.0",
+    "version": "1.1.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {

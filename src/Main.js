@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet,TouchableOpacity,Text, Button, View } from 'react-native';
+import { StyleSheet,TouchableOpacity,Text, Image, View } from 'react-native';
 
 
 const styles =  StyleSheet.create({
@@ -25,6 +25,12 @@ const styles =  StyleSheet.create({
         color:'#159e96',
         fontSize:16,
         fontWeight:'600'
+    },
+    image:{
+        marginBottom:150,
+        position:'relative',
+        width:150,
+        height:150
     }
 });
 
@@ -39,7 +45,13 @@ export default class Main extends React.Component{
     render(){
         const { navigate } = this.props.navigation;
         return(
+            
+             
             <View style={styles.container}>
+                     <Image
+                    style={styles.image}
+                    source={require('../assets/icon.png')}
+          />    
                     <TouchableOpacity
                         style={styles.button}
                         onPress={() =>
@@ -51,7 +63,7 @@ export default class Main extends React.Component{
                    <TouchableOpacity
                         style={styles.button}
                         onPress={() =>
-                            navigate('Electric', { name: 'Elektrik' })
+                            navigate('Electric', { name: 'Electric' })
                             }
                     >
                         <Text style={styles.text}> Elektrik </Text>
